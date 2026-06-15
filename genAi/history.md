@@ -15,11 +15,11 @@ History refers to the record of previous interactions between a user and an AI s
 Example:
 
 ```text
-User: My name is Avansh.
-AI: Nice to meet you, Avansh.
+User: My name is xyz.
+AI: Nice to meet you, xyz.
 
 User: What is my name?
-AI: Your name is Avansh.
+AI: Your name is xyz.
 ```
 
 The AI can answer correctly because the previous messages are included in the conversation history.
@@ -33,7 +33,7 @@ Without history, every message would be treated as an entirely new request.
 Example:
 
 ```text
-User: My name is Avansh.
+User: My name is xyz.
 AI: Nice to meet you.
 
 User: What is my name?
@@ -101,7 +101,7 @@ System Prompt:
 You are a helpful assistant.
 
 History:
-User: My name is Avansh.
+User: My name is xyz.
 Assistant: Nice to meet you.
 
 Current Message:
@@ -111,7 +111,7 @@ What is my name?
 The model then generates:
 
 ```text
-Your name is Avansh.
+Your name is xyz.
 ```
 
 ---
